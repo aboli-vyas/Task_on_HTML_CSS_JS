@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Use of HTML with JS Function</h1>
+    <h2>Select Programming Language:</h2>
+    <h2 id="t">Language</h2>
+    <button onclick="java()" style="background-color: crimson; color:white; width: 120px; height: 50px; border-radius: 10px; border: none; font-size: 30px;"><b><i>Java</i></b></button>
+    <button onclick="python()" style="background-color: DarkCyan; color:white; width: 120px; height: 50px; border-radius: 10px; border: none; font-size: 30px; margin-left: 30px;"><b><i>Python</i></b></button>
+    <script>
+        function java(){
+            t.textContent="Java";
+            t.style.color="Crimson";
+            t.style.fontFamily="Copperplate";
+            t.style.fontWeight = "bold";
+            t.style.fontStyle = "italic";
+            t.style.letterSpacing = "1.5px";
+            t.style.fontSize="80px";
+            t.style.marginTop = "50px";
+           
+            
+        }
+         function python(){
+            t.textContent="Python";
+            t.style.color="DarkCyan";
+             t.style.fontFamily="Copperplate";
+            t.style.fontWeight = "bold";
+            t.style.fontStyle = "italic";
+            t.style.letterSpacing = "1.5px";
+            t.style.fontSize="80px";
+            t.style.marginTop = "50px";
+          
+        }
+    </script>
+   
+   
+</body>
+</html>
